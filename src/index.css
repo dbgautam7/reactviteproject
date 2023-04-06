@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.ant-input-affix-wrapper{
+border-radius: 13px;
+background-color: #F3F3F3;
+
+}
+.ant-input{
+background-color:#F3F3F3;
+}
