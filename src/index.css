@@ -12,3 +12,7 @@ background-color: #F3F3F3;
 .ant-input{
 background-color:#F3F3F3;
 }
+
+.ant-layout-sider-children{
+    background-color: darkgray;
+}

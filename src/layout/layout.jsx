@@ -1,9 +1,8 @@
 import React from "react";
-import Navbar from "../../components/navbar";
-import Sidebar from "../../components/sidebar";
-import Home from "../home/home";
+import Sidebar from "../components/sidebar";
+import Navbar from "../components/navbar";
 
-const Dashboard = () => {
+const Layout = (props) => {
   return (
     <div className="flex flex-col h-full w-full bg-gray-100 mt-[58px]">
       <Navbar />
@@ -12,11 +11,11 @@ const Dashboard = () => {
           <Sidebar />
         </div>
         <div className="basis-3/4">
-          <Home />
+         {props.children}
         </div>
       </div>
     </div>
   );
 };
 
-export default Dashboard;
+export default Layout;
